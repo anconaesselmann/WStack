@@ -5,9 +5,9 @@ import PackageDescription
 let package = Package(
     name: "WStack",
     platforms: [
-        .iOS(.v16),
-        .watchOS(.v6),
-        .tvOS(.v16),
+        .iOS(.v17),
+        .watchOS(.v10),
+        .tvOS(.v17),
         .macOS(.v14)
     ],
     products: [
